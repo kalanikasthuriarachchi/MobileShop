@@ -16,6 +16,9 @@ namespace ShopClient.Data
         public DbSet<Color> Colors { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
+		public DbSet<Subscribers> Subscribers { get; set; }
+        public DbSet<VisitCounts> VisitCounts { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
